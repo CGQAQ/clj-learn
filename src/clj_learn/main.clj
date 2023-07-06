@@ -13,5 +13,5 @@
   (println "hello world")
   (println (add 5 6))
 
-  (let [my-date (java.util.Date.)]
+  (let [my-date (Date.)]
     (println (.toString my-date))))
